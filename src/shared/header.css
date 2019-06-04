@@ -1,0 +1,15 @@
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(56, 2, 2);
+    font-size: 4em;
+    padding-bottom: 20px;
+}
+header {
+    background-color: lightslategray;
+    height: 180px;
+    border: 2px solid black;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Permanent Marker', cursive;
+}
