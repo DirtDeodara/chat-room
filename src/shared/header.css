@@ -7,7 +7,7 @@
     margin: none;
     margin-bottom: 30px;
     background-color: black;
-    height: 380px;
+    height: 320px;
     border: 6px solid rgb(223, 221, 221);
     font-family: 'Crafty Girls', cursive;
 }
@@ -20,4 +20,8 @@
 }
 h1 {
     padding-right: 20px;
+}
+
+#tapedHands {
+    height: 300px;
 }

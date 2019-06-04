@@ -4,7 +4,7 @@ import '../utils/check-auth.js';
 
 auth.onAuthStateChanged(user => {
     if(user) {
-        console.log('we have a user');
+        console.log(user, 'we have a user');
     }
     else {
         console.log('no user');

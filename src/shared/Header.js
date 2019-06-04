@@ -21,7 +21,7 @@ class Header extends Component {
                 <div id="header-topper">
                     <h1>Jiu Jitsu</h1>
                     <h2 id="sub-header">...off the mats</h2>
-                    <img src="../../assets/tapedHands.jpg">
+                    <img id="tapedHands" src="../../assets/tapedHands.jpg">
                  </div>
                 
             </header>

@@ -3,6 +3,7 @@ h2 {
     flex-direction: row;
     justify-content: center;
     font-family: 'Raleway', sans-serif;
+    color: white;
     
     /* font-family: 'Permanent Marker', cursive; */
 }
