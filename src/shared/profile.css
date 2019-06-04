@@ -10,14 +10,14 @@
     margin: 10px;
     height: 3em;
     border-radius: 20%;
-    border: 2px solid rgba(133, 3, 3, 0.993);
+    border: 2px solid rgb(223, 221, 221);
     font-family: 'Permanent Marker', cursive;
 }
 
 .profile img {
     width: 70px;
     border-radius: 100%;
-    border: 2px solid rgba(133, 3, 3, 0.993);
+    border: 2px solid rgb(223, 221, 221);
     margin-right: 10px;
     box-shadow: 0 0 5px black;
 }
@@ -25,5 +25,5 @@
 span {
     text-decoration-line: underline;
     font-size: 2em;
-    color: rgba(92, 2, 2, 0.993);
+    color: rgb(223, 221, 221);
 }

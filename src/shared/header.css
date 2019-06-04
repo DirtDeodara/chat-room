@@ -1,15 +1,23 @@
-h1 {
+#header-topper {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(56, 2, 2);
+    color: rgb(223, 221, 221);
     font-size: 4em;
-    padding-bottom: 20px;
+    margin: none;
+    margin-bottom: 30px;
+    background-color: black;
+    height: 380px;
+    border: 6px solid rgb(223, 221, 221);
+    font-family: 'Crafty Girls', cursive;
 }
-header {
-    background-color: lightslategray;
-    height: 180px;
-    border: 2px solid black;
-    /* font-family: 'Raleway', sans-serif; */
+#sub-header {
     font-family: 'Permanent Marker', cursive;
+    font-size: .4em;
+    align-self: flex-end;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+h1 {
+    padding-right: 20px;
 }

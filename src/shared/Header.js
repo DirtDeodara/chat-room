@@ -18,7 +18,12 @@ class Header extends Component {
     renderTemplate() {
         return /*html*/ `
             <header>
-                <h1>Chat Room</h1>
+                <div id="header-topper">
+                    <h1>Jiu Jitsu</h1>
+                    <h2 id="sub-header">...off the mats</h2>
+                    <img src="../../assets/tapedHands.jpg">
+                 </div>
+                
             </header>
         `;
     }
