@@ -1,14 +1,15 @@
 import Component from '../Component.js';
 
-class ChatRoom extends Component {
+class AddRoom extends Component {
     renderTemplate() {
         return /*html*/ `
-            <li class="chat-room">
-                <a href="">Guard Pullers</a>
-            </li>
+        <form class="add-room">
+            <button id="add-button">⊕</button>
+            <label><input id="input" name="" placeholder="Create a room"></label>
+        </form>
             
     `;
     }
 }
 
-export default ChatRoom;
+export default AddRoom;
