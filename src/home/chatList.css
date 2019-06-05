@@ -1,5 +1,17 @@
 
 #chat-list {
-    color: bisque;
-    border: 2px solid bisque;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    color: rgb(250, 250, 226);
+    border: 2px solid rgb(250, 250, 226);
+    margin-bottom: 200px;
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: black;
+   
+    
 }

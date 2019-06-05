@@ -1,0 +1,37 @@
+
+#add-button {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    border: 1px solid #0d0d0d;
+    background: #610202;
+    background: -webkit-gradient(linear, left top, left bottom, from(#bd4d37), to(#610202));
+    background: -webkit-linear-gradient(top, #bd4d37, #610202);
+    background: -moz-linear-gradient(top, #bd4d37, #610202);
+    background: -ms-linear-gradient(top, #bd4d37, #610202);
+    background: -o-linear-gradient(top, #bd4d37, #610202);
+    padding: 8px 16px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #080008;
+    font-size: 20px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    margin: 30px;
+   }
+
+#add-button:hover {
+   border-top-color: #000000;
+   background: #000000;
+   color: #c7060d;
+   }
+   
+#add-button:active {
+   border-top-color: #e5e3e7;
+   background: #e5e3e7;
+   }
