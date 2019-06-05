@@ -1,14 +1,14 @@
 import Component from '../Component.js';
-import AddRoom from '../home/AddRoom.js';
+import ChatRoom from '../home/ChatRoom.js';
 
 class ChatList extends Component {
     
     render() {
         const list = this.renderDOM();
 
-        const addRoom = new AddRoom();
-        const addRoomDOM = addRoom.render();
-        list.appendChild(addRoomDOM);
+        const chatRoom = new ChatRoom();
+        const chatRoomDOM = chatRoom.render();
+        list.appendChild(chatRoomDOM);
 
         return list;
     }
