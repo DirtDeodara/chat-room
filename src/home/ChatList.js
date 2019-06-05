@@ -5,21 +5,21 @@ class ChatList extends Component {
     
     render() {
         const list = this.renderDOM();
+        const rooms = this.props.rooms;
+        console.log(rooms);
 
-        const chatRoomItem = new ChatRoomItem();
-        const chatRoomItemDOM = chatRoomItem.render();
-        list.appendChild(chatRoomItemDOM);
-
+        rooms.forEach(room => {
+            const chatRoomItem = new ChatRoomItem({ room });
+            const chatRoomItemDOM = chatRoomItem.render();
+            list.appendChild(chatRoomItemDOM);
+        });
         return list;
     }
 
-
     renderTemplate() {
         return /*html*/ `
-            <ul id="chat-list">
-                <p>remove this p tag</p>
-            </ul>
-    `;
+            <ul id="chat-list"></ul>
+        `;
     }
 }
 
