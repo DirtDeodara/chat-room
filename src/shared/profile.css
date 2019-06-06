@@ -1,17 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat&display=swap');
+
 .profile {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    font-family: 'Permanent Marker', cursive;
-
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Walter Turncoat', cursive;
 }
 
 .profile button {
     margin: 10px;
     height: 3em;
     border-radius: 20%;
-    border: 2px solid rgb(223, 221, 221);
-    font-family: 'Permanent Marker', cursive;
+    border: 2px solid rgb(189, 189, 171);
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Walter Turncoat', cursive;
     font-size: 1em;
 }
 

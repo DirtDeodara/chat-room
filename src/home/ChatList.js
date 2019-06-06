@@ -6,7 +6,6 @@ class ChatList extends Component {
     render() {
         const list = this.renderDOM();
         const rooms = this.props.rooms;
-        console.log(rooms);
 
         rooms.forEach(room => {
             const chatRoomItem = new ChatRoomItem({ room });
@@ -18,7 +17,9 @@ class ChatList extends Component {
 
     renderTemplate() {
         return /*html*/ `
-            <ul id="chat-list"></ul>
+            <ul id="chat-list">
+                <h2>Chat Room List</h2>
+            </ul>
         `;
     }
 }

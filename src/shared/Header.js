@@ -1,6 +1,5 @@
 import Component from '../Component.js';
 import Profile from './Profile.js';
-import AddRoom from '../home/AddRoom.js';
 import { auth } from '../services/firebase.js';
 import ChatList from '../home/ChatList.js';
 
@@ -8,21 +7,21 @@ class Header extends Component {
     render() {
         const dom = this.renderDOM();
         const rooms = [];
-        
-        const profile = new Profile();
-        dom.appendChild(profile.render());
-        
-        const addRoom = new AddRoom({
-            onAdd: (newRoom) => {
-                rooms.unshit(newRoom);
+
+        const chatList = new ChatList({
+            onUpdate: (roomToUpdate) => {
+                const index = rooms.indexOf(roomToUpdate);
+
+                const task = rooms[index];
+                task.completed = !task.completed;
+
                 chatList.update({ rooms });
             }
         });
-
-        const addRoomDOM = addRoom.render();
-        dom.appendChild(addRoomDOM);
-
-
+        
+        const profile = new Profile();
+        dom.appendChild(profile.render());
+    
         auth.onAuthStateChanged(user => {
             profile.update({ user });
         });
