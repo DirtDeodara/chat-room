@@ -1,6 +1,6 @@
 import Component from '../Component.js';
 
-class ChatRoomApp extends Component {
+class ChatApp extends Component {
     render() {
         const dom = this.renderDOM();
         const main = dom.querySelector('main');
@@ -15,4 +15,4 @@ class ChatRoomApp extends Component {
     }
 }
 
-export default ChatRoomApp;
+export default ChatApp;

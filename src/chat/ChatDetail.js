@@ -1,6 +1,6 @@
 import Component from '../Component.js';
 
-class ChatRoomDetail extends Component {
+class ChatDetail extends Component {
     renderTemplate() {
         return /*html*/ `
             
@@ -8,4 +8,4 @@ class ChatRoomDetail extends Component {
     }
 }
 
-export default ChatRoomDetail;
+export default ChatDetail;

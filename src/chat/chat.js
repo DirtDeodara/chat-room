@@ -1,9 +1,9 @@
-import ChatRoomApp from './chatRoom.js';
+import ChatApp from './ChatApp.js';
 import { auth } from '../services/firebase.js';
 
 const root = document.getElementById('app');
 
 auth.onAuthStateChanged(() => {
-    const chatRoomApp = new ChatRoomApp();
-    root.appendChild(chatRoomApp.render());
+    const chatApp = new ChatApp();
+    root.appendChild(chatApp.render());
 });
