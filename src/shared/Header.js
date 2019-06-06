@@ -1,21 +1,21 @@
 import Component from '../Component.js';
 import Profile from './Profile.js';
 import { auth } from '../services/firebase.js';
-import ChatList from '../home/ChatList.js';
+import RoomList from '../home/RoomList.js';
 
 class Header extends Component {
     render() {
         const dom = this.renderDOM();
         const rooms = [];
 
-        const chatList = new ChatList({
+        const roomList = new RoomList({
             onUpdate: (roomToUpdate) => {
                 const index = rooms.indexOf(roomToUpdate);
 
                 const task = rooms[index];
                 task.completed = !task.completed;
 
-                chatList.update({ rooms });
+                roomList.update({ rooms });
             }
         });
         

@@ -1,16 +1,16 @@
 import Component from '../Component.js';
-import ChatRoomItem from '../home/ChatRoomItem.js';
+import RoomItem from '../home/RoomItem.js';
 
-class ChatList extends Component {
+class RoomList extends Component {
     
     render() {
         const list = this.renderDOM();
         const rooms = this.props.rooms;
 
         rooms.forEach(room => {
-            const chatRoomItem = new ChatRoomItem({ room });
-            const chatRoomItemDOM = chatRoomItem.render();
-            list.appendChild(chatRoomItemDOM);
+            const roomItem = new RoomItem({ room });
+            const roomItemDOM = roomItem.render();
+            list.appendChild(roomItemDOM);
         });
         return list;
     }
@@ -24,4 +24,4 @@ class ChatList extends Component {
     }
 }
 
-export default ChatList;
+export default RoomList;

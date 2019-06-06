@@ -1,7 +1,7 @@
 import Component from '../Component.js';
 import { dirtsRoomsRef } from '../services/firebase.js';
 
-class ChatRoomItem extends Component {
+class RoomItem extends Component {
     render() {                        
         const dom = this.renderDOM();
         const room = this.props.room;
@@ -27,5 +27,5 @@ class ChatRoomItem extends Component {
     }
 }
 
-export default ChatRoomItem;
+export default RoomItem;
 
