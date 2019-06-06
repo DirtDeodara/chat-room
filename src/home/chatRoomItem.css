@@ -11,3 +11,10 @@ li {
     margin-right: 20%;
     margin-bottom: 10px;
 }
+
+li:nth-child(odd) {
+    background-color: white;
+}
+li:nth-child(even) {
+    background-color: rgb(221, 218, 218);
+}
