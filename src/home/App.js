@@ -11,7 +11,7 @@ class App extends Component {
         const dom = this.renderDOM();
         const main = dom.querySelector('main');
         
-        const header = new Header();
+        const header = new Header({ title: 'Jiu Jistu' });
         dom.insertBefore(header.render(), main);
         
         const addRoom = new AddRoom({});

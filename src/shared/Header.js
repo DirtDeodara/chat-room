@@ -30,10 +30,12 @@ class Header extends Component {
     }
 
     renderTemplate() {
+        const title = this.props.title;
+        console.log(this.props);
         return /*html*/ `
             <header>
                 <div id="header-topper">
-                    <h1>Jiu Jitsu</h1>
+                    <h1>${title}</h1>
                     <h2 id="sub-header">...off the mats</h2>
                     <img id="tapedHands" src="../../assets/tapedHands.jpg">
                 </div>

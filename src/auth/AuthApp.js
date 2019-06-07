@@ -10,7 +10,7 @@ class AuthApp extends Component {
     render() {
         const dom = this.renderDOM();
 
-        const header = new Header();
+        const header = new Header({ title: 'Join us' });
         const main = dom.querySelector('main');
         dom.insertBefore(header.render(), main);
 
@@ -33,7 +33,6 @@ class AuthApp extends Component {
         return /*html*/`
         <div>
             <main>
-                <h2>Join our chat</h2>
                 <div id="firebaseui-auth-container"></div>
             </main>
         </div>
