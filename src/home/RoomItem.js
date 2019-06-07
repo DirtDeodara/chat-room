@@ -19,7 +19,7 @@ class RoomItem extends Component {
         // const button = isOwner ? '<button>X</button>' : '';
         return /*html*/ `
             <li class="chat-room">
-                <a href="">${room.roomName}</a>
+                <a href="chatRoom.html?key=${room.key}">${room.roomName}</a>
                 <button>X</button>
             </li>
             

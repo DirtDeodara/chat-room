@@ -10,7 +10,6 @@ class AddRoom extends Component {
             
             const formData = new FormData(form);
             const newRoom = dirtsRoomsRef.push(); 
-            console.log(newRoom);
             
             const roomDetails = {   
                 roomName: formData.get('room'),
