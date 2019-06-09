@@ -31,7 +31,6 @@ class Header extends Component {
 
     renderTemplate() {
         const title = this.props.title;
-        console.log(this.props);
         return /*html*/ `
             <header>
                 <div id="header-topper">

@@ -16,12 +16,15 @@ class AddRoom extends Component {
                 owner: auth.currentUser.uid,
                 key: newRoom.key
             };
-
+            
             newRoom.set(roomDetails);
-
+            console.log(roomDetails, 'addRoom roomDetals');
+            console.log(newRoom, 'addRoom newRoom');
+            
+            
             form.reset();
         });
-
+        
         return form;
     }
 

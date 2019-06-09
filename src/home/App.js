@@ -14,8 +14,7 @@ class App extends Component {
         const header = new Header({ title: 'Jiu Jistu' });
         dom.insertBefore(header.render(), main);
         
-        const addRoom = new AddRoom({});
-            
+        const addRoom = new AddRoom({});   
         const addRoomDOM = addRoom.render();
         main.appendChild(addRoomDOM);
 
