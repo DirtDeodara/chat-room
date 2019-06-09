@@ -16,4 +16,6 @@ export const db = firebase.database();
 
 export const dirtsRoomsRef = db.ref('rooms');
 
+export const messagesByRoomRef = db.ref('messages-by-room');
+
 window.db = db;
