@@ -18,9 +18,6 @@ class AddRoom extends Component {
             };
             
             newRoom.set(roomDetails);
-            console.log(roomDetails, 'addRoom roomDetals');
-            console.log(newRoom, 'addRoom newRoom');
-            
             
             form.reset();
         });
