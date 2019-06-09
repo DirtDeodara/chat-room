@@ -2,8 +2,13 @@
     border: 10px solid rgb(3, 2, 2);
     border-radius: 50px;
     box-shadow: 0 0 20px black;
+    font-size: 1.3em;
 }
 
 li {
     width: 800px;
+}
+
+#date {
+    font-size: .6em;
 }
