@@ -22,13 +22,16 @@ class AddMessage extends Component {
                 uid: auth.currentUser.uid,
                 displayName: uid.displayName,
                 photoURL: uid.photoURL,
-                date: new Date().toISOString()
+                date: new Date().toISOString(),
             });
             
+            form.reset();
 
         });
+
         return form;
     }
+
     renderTemplate() {
         return /*html*/ `
             <form class="add-message">
