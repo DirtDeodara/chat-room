@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat&display=swap');
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border: 1px solid rgb(223, 221, 221);
+    font-family: 'Walter Turncoat', cursive;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+}
+
+li:nth-child(odd) {
+    background-color: white;
+}
+li:nth-child(even) {
+    background-color: rgb(221, 218, 218);
+}
+
+#delete-button {
+    text-align: center;
+    background-color: rgb(172, 4, 4);
+    width: 100px;
+    border-radius: 25px;
+}

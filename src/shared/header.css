@@ -1,0 +1,27 @@
+#header-topper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(223, 221, 221);
+    font-size: 3.5em;
+    margin: none;
+    margin-bottom: 30px;
+    background-color: black;
+    height: 320px;
+    border: 6px solid rgb(223, 221, 221);
+    font-family: 'Permanent Marker', cursive;
+}
+#sub-header {
+    font-family: 'Permanent Marker', cursive;
+    font-size: .4em;
+    align-self: flex-end;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+h1 {
+    padding-right: 20px;
+}
+
+#tapedHands {
+    height: 300px;
+}

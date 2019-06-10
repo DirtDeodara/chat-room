@@ -1,0 +1,16 @@
+.add-message {
+    text-align: center;   
+    
+}
+
+#message-input {
+    width: 400px;
+    height: 30px; 
+    border-radius: 25px;
+}
+
+
+#post-button {
+    height: 39px;
+    border-radius: 100%;
+}
