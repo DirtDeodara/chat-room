@@ -23,6 +23,7 @@
     text-decoration: none;
     vertical-align: middle;
     margin: 30px;
+    outline: none;
    }
 
 #add-button:hover {
@@ -34,4 +35,10 @@
 #add-button:active {
    border-top-color: #e5e3e7;
    background: #e5e3e7;
+   }
+
+   #input {
+       height: 30px;
+       border-radius: 25px;
+       border: 1px solid black;
    }
