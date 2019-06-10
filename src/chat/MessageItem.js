@@ -1,10 +1,6 @@
 import Component from '../Component.js';
-import { auth, messagesByRoomRef } from '../services/firebase.js';
-
 
 class MessageItem extends Component {
-
-
 
     renderTemplate() {
         const message = this.props.message;
@@ -14,7 +10,7 @@ class MessageItem extends Component {
         <li class="message">
             <p>${message.displayName}</p>
             <p id="date">${date.toLocaleDateString()} at ${date.toLocaleTimeString()}</p>
-            <p>${this.props.message}</p> 
+            <p>${message}</p> 
         </li>
             
     `;

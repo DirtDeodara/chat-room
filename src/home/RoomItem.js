@@ -18,7 +18,7 @@ class RoomItem extends Component {
         return /*html*/ `
             <li class="chat-room">
                 <a href="chatRoom.html?key=${room.key}">${room.roomName}</a>
-                <button>X</button>
+                <button id="delete-button">Delete Room</button>
             </li>
             
     `;

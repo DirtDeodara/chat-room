@@ -45,8 +45,7 @@ class ChatApp extends Component {
 
         const messageList = new MessageList({ messages: [] });
         main.appendChild(messageList.render());
-
-        
+ 
         const footer = new Footer();
         main.appendChild(footer.render());
 
@@ -64,4 +63,3 @@ class ChatApp extends Component {
 
 export default ChatApp;
 
-////// dirtsRoomRef.child(room.id...this comes from searchParams).push().set()

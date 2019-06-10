@@ -29,7 +29,7 @@ class AddRoom extends Component {
         return /*html*/ `
         <form class="add-room">
             <button id="add-button">add a room</button>
-            <label><input id="input" name="room" placeholder="Create a room"></label>
+            <label><input id="input" name="room" placeholder=" Create a room"></label>
         </form>
     `;
     }

@@ -6,8 +6,7 @@ class AddMessage extends Component {
         const form = this.renderDOM();
        
         const roomKey = messagesByRoomRef.child(this.props.key);
-    
-        
+          
         form.addEventListener('submit', event => {
             event.preventDefault();
 
